@@ -1,0 +1,99 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: auto;
+  background: #f3f3f3;
+  padding: 10px 20px;
+}
+
+.head {
+  border: none;
+  padding: 0.5rem;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  border: 4px solid #ffc83d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yellow {
+  color: #ffc83d;
+}
+
+button {
+  margin-left: 15px;
+  padding: 7px 15px;
+  background: #ffc83d;
+  border: 3px rgb(34, 34, 34) solid;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+h2 {
+  height: 30px;
+}
+
+h3 {
+  margin-bottom: 30px;
+}
+
+input {
+  border-radius: 7px;
+  padding: 15px;
+  /* width: 40%; */
+  max-width: 400px;
+  margin-top: 40px;
+  background: #dfdfdf;
+  border: none;
+  margin-bottom: 10px;
+  border: 2px solid #333;
+  outline: none;
+  font-size: 13px;
+}
+
+.emojiDiv {
+  /* border: 1px red solid; */
+  max-width: 500px;
+  margin: auto;
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(145deg, #dbdbdb, #ffffff);
+  box-shadow: 20px 20px 60px #cfcfcf, -20px -20px 60px #ffffff;
+  border-radius: 15px;
+}
+
+.emojiBox {
+  font-size: 2rem;
+  cursor: pointer;
+  margin: 0.5rem 0.8rem;
+  /* border: 1px black solid; */
+  background: #f3f3f3;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 6px;
+  box-shadow: 8px 8px 15px #cfcfcf, -8px -8px 15px #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.emojiBox:hover {
+  background: #dfdfdf;
+  /* box-shadow: 8px 8px 15px #cfcfcf, -8px -8px 15px #ffffff; */
+  box-shadow: 5px 5px 5px #cfcfcf, -5px -5px 5px #ffffff;
+}
+
+footer {
+  /* border: 1px red solid; */
+  max-width: 500px;
+  margin: 50px auto auto auto;
+}
+
+a {
+  text-decoration: none;
+  color: #f3b10b;
+  font-weight: bold;
+}
